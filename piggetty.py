@@ -14,9 +14,9 @@ def piggy(word):
 	return pig
 
 # Open the file *getty.txt* for reading.  
-
+gettyfile = open("getty.txt", "r")
 # Open a new file *piggy.txt* for writing.  
-
+piggyfile = open("piggy.txt", "w")
 # Read the getty.txt file into a string.  
 
 # Strip out bad characters (, - .).  
