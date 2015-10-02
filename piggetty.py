@@ -30,13 +30,13 @@ def piggy(word):
 	print(pig)
 
 # Open the file *getty.txt* for reading.  
-infile = open("getty.txt", "r")
+gettytext = open("getty.txt", "r")
 
 # Open a new file *piggy.txt* for writing.  
-outfile = open("piggy.txt", "w")
+piggytext = open("piggy.txt", "w")
 
 # Read the getty.txt file into a string.  
-gettystring = infile.read()
+gettystring = gettytext.read()
 
 # Strip out bad characters (, - .).  
 gettystring = gettystring.replace (",","")
@@ -53,13 +53,13 @@ piggystring = ""
 for word in gettylist:
 
 # Add the pigified word (and a space) to the new string.  
-	if len(word) > 0
+	if len(word) > 0:
 		piggystring = piggystring + piggy(word) + " "
 
 
 # Write the new string to piggy.txt.  
-print(piggystring, file = outfile)
+print (piggystring, file = piggytext)
 
 # close the files.
-infile.close()
-outfile.close()
+gettytext.close()
+piggytext.close()
