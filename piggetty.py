@@ -1,7 +1,7 @@
-#
-# File Header
-#
-# Add your name to this
+# Daniel McMurray
+# piggetty.py
+# Piggettysburg Address
+# Collaborated with Jacob Wright, Evan Sauers, Marisa Gross
 
 # Define a function called piggy(string) that returns a string
 
