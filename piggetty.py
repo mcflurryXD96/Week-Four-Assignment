@@ -1,7 +1,7 @@
 # Daniel McMurray
 # piggetty.py
 # Piggettysburg Address
-# Collaborated with Jacob Wright, Evan Sauers, Marisa Gross
+# Collaborated with Marisa Gross, Evan Sauers, and Jacob Wright
 
 # Define a function called piggy(string) that returns a string
 
@@ -19,7 +19,7 @@ def piggy(word):
 				break
 		#		return pig
 			else:
-				pig = word[n:] = endword = "ay"
+				pig = word[n:] = endword + "ay"
 				break
 			#	return pig
 		
@@ -29,6 +29,8 @@ def piggy(word):
 			n = n + 1
 	print(pig)
 
+#infile = gettytext
+#outfile = gettyfile
 # Open the file *getty.txt* for reading.  
 gettytext = open("getty.txt", "r")
 
@@ -58,7 +60,7 @@ for word in gettylist:
 
 
 # Write the new string to piggy.txt.  
-print (piggystring, file = piggytext)
+print(piggystring, file = piggyfile)
 
 # close the files.
 gettytext.close()
